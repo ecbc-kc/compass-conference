@@ -82,10 +82,10 @@ h1 em{color:var(--amber);font-style:italic}
 .register-cta{text-align:center;margin-top:22px}
 .cur{font-family:"Source Sans 3",system-ui,sans-serif;font-weight:700}
 .price .cur{font-size:.62em;font-weight:600;vertical-align:.42em;margin-right:.06em}
-.speaker-bio{display:grid;grid-template-columns:220px 1fr;gap:24px;width:100%;max-width:1100px;margin:16px auto 0;align-items:stretch;text-align:left}
+.speaker-bio{display:grid;grid-template-columns:300px 1fr;gap:24px;width:100%;max-width:1100px;margin:16px auto 0;align-items:stretch;text-align:left}
 .speaker-bio h3{font-size:1.35rem;margin-bottom:8px}
 .speaker-bio p{color:var(--muted);font-size:1.05rem}
-.speaker-photo{border:2px dashed var(--line);border-radius:14px;background:var(--accent-soft);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;min-height:260px;color:var(--muted);font-weight:700;padding:16px;text-align:center}
+.speaker-photo{border:2px dashed var(--line);border-radius:14px;background:var(--accent-soft);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;min-height:260px;color:var(--muted);font-weight:700;padding:2px;text-align:center}
 .speaker-photo svg{width:64px;height:64px;opacity:.55}
 .speaker-photo img{width:100%;height:100%;object-fit:cover;border-radius:10px}
 .speaker-photo img.speaker-photo-icon{width:64px;height:64px;object-fit:contain;border-radius:0;opacity:.55}
@@ -222,20 +222,33 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--muted);b
   <div class="section-head" style="margin-left:auto;margin-right:auto;text-align:center"><div class="kicker"><h2>Keynote Speaker</h2></div></div>
   <div class="speaker-single">
     <article class="card speaker-bio">
-      <div class="speaker-photo" role="img" aria-label="Photo of Pastor Godfrey Hom to be added">
-      <svg viewBox="0 0 64 64" fill="none" aria-hidden="true"><circle cx="32" cy="24" r="11" fill="currentColor"/><path d="M10 56c2.5-11 11-17 22-17s19.5 6 22 17" fill="currentColor"/></svg>
-      <span>Speaker photo<br>to be added</span>
+      <div class="speaker-photo" role="img">
+        <img src="assets/Stacey & Godfrey Hom pic.jpg" alt="Pastor Godfrey Hom">
     </div>
     <div>
       <h3>Pastor Godfrey Hom<p>Main sessions</p></h3>
-      <p>Speaker bio to be added.</p>
+      <p>Pastor Godfrey Hom is Senior Pastor at First Chinese Baptist Church in Fountain
+        Valley, California (FCBC-FV). By God's amazing grace, the Lord saved him and he was
+        baptized while growing up at Chinese Independent Baptist Church in Oakland. He
+        graduated from Talbot School of Theology (Biola University) with an M.Div. in 2000.
+        Before entering vocational ministry, he taught secondary math. The Lord has blessed
+        him with a wonderful wife Stacey, and three amazing children: Sarah, Shane and Selah.
+        In alphabetical order, his (worldly) interests include athletics, bargains, card games,
+        donuts, electric mobility, football/49ers, geography and hanging out. </p>
+       <br>
+       <h3>Stacey Hom</h3>
+       <p>Stacey Hom grew up in Los Angeles, California and received God'ss gift of salvation as
+        a tween.  After graduating from UCLA with a B.A. in Communications, she stayed on
+        campus to work in Athletics for many years.
+        Through various trials and joys, the Lord continues to deepen her faith and reveal His
+        greatness.  Stacey is a pastor's wife, a homeschooling mom, and serves in various
+        capacities at church.
+        She loves Jesus, her husband Godfrey and their children Sarah, Shane, and Selah, and
+        she enjoys baseball (watching and cheering, not playing!), music, and meaningful
+        conversations.</p>
     </div>
     </article>
   </div>
-  <!-- SPEAKER BIO & PHOTO — to fill in later:
-       1) Photo: replace the placeholder box below with
-          <img src="assets/speaker-photo.jpg" alt="Pastor Godfrey Hom"> inside .speaker-photo
-       2) Bio: replace the "Speaker bio to be added." paragraph with the bio text. -->
 </div></section>
 
 <!-- SCHEDULE -->
@@ -278,7 +291,8 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--muted);b
 
 <!-- REGISTER -->
 <section id="register"><div class="wrap">
-  <div class="section-head"><div class="kicker">Registration</div><h2>Save Your Spot — only 50 spots!</h2><p>Registration opens <strong>December 1, 2026</strong>.</p></div>
+  <div class="section-head"><div class="kicker">Registration</div><h2>Save Your Spot — only 50 spots!</h2>
+  <p>Registration opens <strong>December 1, 2026</strong>. *Registration fee does NOT include a hotel room.</p></div>
   <div class="grid2">
     <article class="card"><span class="tag">Thru Dec 31, 2026</span><h3 style="margin-top:10px">Early Bird</h3><div class="price"><span class="cur">$</span>149</div><p>Our lowest price — save <span class="cur">$</span>50 compared to Regular when you register in December.</p></article>
     <article class="card"><span class="tag">From Jan 1, 2027</span><h3 style="margin-top:10px">Regular</h3><div class="price"><span class="cur">$</span>199</div><p>The standard price from January 1 — available only while the 50 spots last.</p></article>
@@ -327,7 +341,7 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--muted);b
       <tr><td>Double Queen One-Bedroom Suite</td><td><strong><span class="cur">$</span>129</strong>/night</td></tr>
       </tbody></table>
       <p><small>Book by <strong>Tuesday, January 12, 2027</strong> for the discounted rate. Complimentary breakfast included for hotel guests.</small></p>
-      <div class="register-cta"><a class="btn btn-primary" href="https://www.ihg.com/staybridge/hotels/us/en/overland-park/mkcvl/hoteldetail">Book</a></div>
+      <div class="register-cta"><a class="btn btn-primary" href="https://www.ihg.com/redirect?path=rates&brandCode=SB&regionCode=1&localeCode=en&checkInMonthYear=012027&checkInDate=12&checkOutDate=15&checkOutMonthYear=012027&hotelCode=MKCVL&GPC=MUP&numberOfAdults=1&numberOfRooms=1&adjustMonth=false&showApp=true&monthIndex=00">Book</a></div>
 
     </article>
 </div></section>
